@@ -212,6 +212,10 @@ small screens.
     margin-top: 0.6em;
 }
 
+.portfolio-img {
+    height: 300px;
+    width: 300px;
+}
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
