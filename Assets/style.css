@@ -1,5 +1,6 @@
 body {
     color: #777;
+    font-family: 'Raleway', sans-serif;
 }
 
 .pure-img-responsive {
@@ -94,6 +95,7 @@ appears on the left side of the page.
     z-index: 1000;
     /* so the menu or its navicon stays above all content */
     background: #191818;
+    font-size: 18px;
     overflow-y: auto;
 }
 
@@ -101,9 +103,11 @@ appears on the left side of the page.
     All anchors inside the menu should be styled like this.
     */
 #menu a {
-    color: #999;
+    color: rgb(217, 241, 255);
     border: none;
     padding: 0.6em 0 0.6em 0.6em;
+    text-decoration: none;
+    padding: 1px;
 }
 
 /*
@@ -124,35 +128,14 @@ appears on the left side of the page.
 }
 
 /*
-        Change color of the anchor links on hover/focus.
-        */
-#menu .pure-menu li a:hover,
-#menu .pure-menu li a:focus {
-    background: #333;
-}
-
-/*
-    This styles the selected menu item `<li>`.
-    */
-#menu .pure-menu-selected,
-#menu .pure-menu-heading {
-    background: #1f8dd6;
-}
-
-/*
-        This styles a link within a selected menu item `<li>`.
-        */
-#menu .pure-menu-selected a {
-    color: #fff;
-}
-
-/*
     This styles the menu heading.
     */
 #menu .pure-menu-heading {
     font-size: 110%;
-    color: #fff;
+    color: lightblue;
     margin: 0;
+    text-decoration: none;
+    padding-left: 13px;
 }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
@@ -213,9 +196,9 @@ small screens.
 }
 
 .portfolio-img {
-    height: 400px;
-    width: 500px;
-    object-fit: contain;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .portfolio-title {
@@ -225,7 +208,13 @@ small screens.
 
 .portfolio-text {
     text-align: left;
-    margin-right: 20em;
+    margin-right: 10em;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
 }
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
