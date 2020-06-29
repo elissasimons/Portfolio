@@ -215,6 +215,12 @@ small screens.
 .portfolio-img {
     height: 300px;
     width: 300px;
+    object-fit: contain;
+}
+
+.portfolio-title {
+    /*text-align: center; */
+    color: #191818;
 }
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
