@@ -73,7 +73,7 @@ The content `<div>` is where all your content goes.
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: #888;
+    color: #191818;
 }
 
 
@@ -213,14 +213,19 @@ small screens.
 }
 
 .portfolio-img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 500px;
     object-fit: contain;
 }
 
 .portfolio-title {
     /*text-align: center; */
     color: #191818;
+}
+
+.portfolio-text {
+    text-align: left;
+    margin-right: 20em;
 }
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
