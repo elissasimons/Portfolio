@@ -3,6 +3,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+li {
+    list-style-type: none;
+    text-align: left;
+    padding-right: 2em;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -131,11 +137,11 @@ appears on the left side of the page.
     This styles the menu heading.
     */
 #menu .pure-menu-heading {
-    font-size: 110%;
+    font-size: 156%;
+    font-family: 'Sacramento', cursive;
     color: lightblue;
     margin: 0;
     text-decoration: none;
-    padding-left: 13px;
 }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
